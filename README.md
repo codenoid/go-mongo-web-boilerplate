@@ -23,6 +23,23 @@ go build
 2. you will redirected to `/login` the username and password is `admin`
 3. once success, you will redirected to `/`
 
+## Project Structures
+
+```bash
+.
+├── controllers
+│   ├── auth.go
+│   ├── connector.go
+│   └── home.go
+├── go.mod
+├── helpers
+│   └── hash.go
+├── main.go
+├── routes.go
+└── structs
+    └── user.go
+```
+
 ## Features & TODO
 
 - [x] Basic Project Structure
