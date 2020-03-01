@@ -1,4 +1,5 @@
-# Golang Mongo Web Boilerplate
+# Golang Mongo Web Boilerplate 
+[![Go Report Card](https://goreportcard.com/badge/github.com/codenoid/go-mongo-web-boilerplate)](https://goreportcard.com/report/github.com/codenoid/go-mongo-web-boilerplate)
 
 WORK IN PROGRESS
 
