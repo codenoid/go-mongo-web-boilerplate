@@ -4,7 +4,7 @@ WORK IN PROGRESS
 
 ## Installation
 
-1. makesure your mongodb are running in 127.0.0.1:27017 without password
+1. makesure your mongodb are running in 127.0.0.1:27017 without password, if you don't have mongo, you can install it [here](https://docs.mongodb.com/manual/administration/install-community/)
 2. or you can set it up [here](https://github.com/codenoid/go-mongo-web-boilerplate/blob/644dc7a0b73e19ace25017495bc1293774155ef4/routes.go#L12)
 3. run this command
 
