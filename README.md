@@ -2,7 +2,27 @@
 
 WORK IN PROGRESS
 
-## Features
+## Installation
+
+1. makesure your mongodb are running in 127.0.0.1:27017 without password
+2. or you can set it up [here](https://github.com/codenoid/go-mongo-web-boilerplate/blob/644dc7a0b73e19ace25017495bc1293774155ef4/routes.go#L12)
+3. run this command
+
+```bash
+git clone https://github.com/codenoid/go-mongo-web-boilerplate.git
+cd go-mongo-web-boilerplate
+go build
+./gmwb
+// open localhost:6969
+```
+
+## Usage
+
+1. access [http://localhost:6969/setup](http://localhost:6969/setup) to save user data (for test purpose)
+2. you will redirected to `/login` the username and password is `admin`
+3. once success, you will redirected to `/`
+
+## Features & TODO
 
 - [x] Basic Project Structure
 - [x] Shared Single Mongo Connection
